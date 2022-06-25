@@ -1,0 +1,23 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    width: 80vw;
+    height: 95vh;
+    background-color: rebeccapurple;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.perfume-img{
+    background-image: url(images/image-product-mobile.jpg);
+    /* background-color: red; */
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+

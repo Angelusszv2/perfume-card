@@ -82,8 +82,10 @@ body{
     border-radius: 10px;
     position: absolute;
     bottom: 5vh;
-    width: 15em;
-    height: 2em;    
+    width: 70%;
+    height: 2em;
+    
+    
     
 }
 
@@ -91,4 +93,22 @@ body{
     display: inline;
     padding-left: 3px;
 
+}
+
+@media screen and (min-width:450px) {
+    .container{
+        margin-top: 10vh;
+        height: 80vh;
+        width: 50vw;
+        display: flex;
+        
+
+    }
+    .perfume-img{
+        background-image: url(images/image-product-desktop.jpg);
+        width: 200%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 }

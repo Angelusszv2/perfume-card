@@ -95,20 +95,27 @@ body{
 
 }
 
-@media screen and (min-width:450px) {
+@media (min-width:720px) {
     .container{
         margin-top: 10vh;
-        height: 80vh;
-        width: 50vw;
+        height: 65vh;
+        width: 55vw;
         display: flex;
         
-
     }
     .perfume-img{
         background-image: url(images/image-product-desktop.jpg);
-        width: 200%;
+        width: 150%;
         height: 100%;
         background-size: 100% 100%;
         background-repeat: no-repeat;
+    }
+    .container__paragraph{
+        margin-bottom: 20px;
+    }
+    .cart{
+        position: static;
+        width: 100%;
+        margin-top: 10%;
     }
 }
